@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <main>
+    <p>
+      <form action="#">
+        Name as they appear in identity document<br>
+        <input type="text" placeholder="first name"><br>
+        <input type="text" placeholder="second name"><br>
+        <input type="text" placeholder="third name"><br>
+        phone number/ email adress<br>
+        <input type="text" placeholder="phone number/email adress"><br>
+        user tag<br>
+        <!-- user tag must have an @ at the begining-->
+        <input type="text" placeholder="@usertag"><br>
+
+        country<br>
+        <!--list all countries. allow listed country of operation. error message if country not listed collect email for future-->
+        <input type="text" placeholder="country"><br>
+        city<br>
+        <input type="text" placeholder="city"><br>
+        Adress 1
+        <input type="text" placeholder="adress 1">
+        Adress 2
+        <input type="text" placeholder="adress 2">
+        <button type="submit"> sign up </button>
+      </form>
+    </p>
+    <h1 id="heading">
+      <a href="#<!--solfapay link here tosomwere -->">
+        <image class="circle-green" src="# <!--solfapay logo here link-->" </a>
+          solfapay
+    </h1>
+
+    <h2 id="tag" class="blue-text grey-background">simple, smart, secure.</h2>
+    <p1>
+      solfapay is a payment processing application that enabless users to
+      <ol>
+        <li>send money among peers</li>
+        <li>pay for goods and services</li>
+        <li class="grey-background">merchants to recieve payments</li>
+      </ol>
+      <a href=" # " target="_blank"> download app from play store </a>
+
+    </p1>
+    <!-- explain in detail how solfapay works and links to the app-->
+
+
+    <h2 class="blue-text thick-grey-boder"> The solfapay founding team </h2>
+    <p2>
+      <ul>
+        <li class="red-text"> benson maengwe</li>
+        <li> keziah keya </li>
+        <li class="green-text grey-background"> boaz onguti mogambi</li>
+      </ul>
+    </p2>
+    <style>
+      h2 {
+        color: purple;
+        font-size: 30px;
+        font-family: sans-serif, Helvetica;
+      }
+
+      h2 {
+        color: pink
+      }
+
+      p1 {
+        color: black
+      }
+
+      .blue-text {
+        color: blue
+      }
+
+      .red-text {
+        color: red
+      }
+
+      .green-text {
+        color: green
+      }
+
+      .first-image {
+        width: 200px;
+      }
+
+      .thick-grey-boder {
+        border-color: grey;
+        border-width: 10px;
+        border-style: solid;
+      }
+
+      .circle-green {
+        border-color: green;
+        border-radius: 20px
+      }
+
+      .grey-background {
+        background-color: grey;
+      }
+
+      #tag {
+        border-color: grey;
+        border-width: 20px;
+        border-style: solid;
+
+    </style>
+
+
+  </Main>
+
+</html>

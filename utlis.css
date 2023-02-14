@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    line-height: 1.5;
+    background-color: rgb(250, 250, 254);
+}

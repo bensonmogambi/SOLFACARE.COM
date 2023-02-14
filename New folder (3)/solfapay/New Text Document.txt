@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<main>
+<h1>
+
+<a href="#<!--solfapay link here tosomwere -->"><image src= "# <!--solfapay logo here link-->"</a>
+solfapay
+
+</h1>
+
+<h2>simple, smart, secure.</h2>
+
+<p>
+solfapay is a payment processing application that enabless users to 
+<ol>
+send money among peers, 
+pay for goods and services 
+and merchants to recieve payments 
+</ol>
+<a href=" # " target= "_blank"> download app from play store </a>
+
+</p>
+ <!-- explain in detail how solfapay works and links to the app-->
+ 
+ <h2 id="founders"> the solfapay founding team</a=h2>
+<p>
+<ul>
+<li> benson maengwe</li>
+<li> keziah keya </li>
+<li> boaz onguti mogambi</li>
+</ul>
+</p>
+ 
+ </Main>
+ </html>
+ 
+<!--
+ learning on the job
+  <!-- LINKS -->
+ <img src=" link ">
+ 
+ <!--external page LINKS -->
+ <a href=" link "> link name here </a>
+ 
+ <!--dead links -->
+ <a href="#"> link name here </a>
+ 
+ <!--image into dead link -->
+ <a href="#">< img src="#" alt="link name here to be displayed below the image you can chose to ignore the alt attribute" </a>
+ 
+ <!--internal page LINKS -->
+ 
+ <a href=" #founders "> solfapay founders</a>
+  <a href=" #founders "> solfapay team</a>
+ 
+ <!--where to open links- open in new tab -->
+ <a href=" link " target= "_blank"> link name here </a>
+
+-->
+ 

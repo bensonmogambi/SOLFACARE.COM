@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<header>
+  <style>
+  .body {
+  background-color: #ffffff;
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+    .purple {
+      background-color: purple
+    }
+
+    .div1 {
+      background-color: white;
+      width: 100%;
+      height: 100px;
+    }
+
+    .solfatitle {
+      font-size: 25px;
+      font-weight: 1300px;
+      font-family: Helvetica, Monaco;
+      position: relative;
+      text-align: justify;
+      text-transform: uppercase;
+      text-indent: 80px;
+      line-height: 2.5;
+      color: purple;
+      top: 25px;
+
+
+    }
+
+    .solfatag {
+      font-size: 10px;
+      font-weight: 100;
+      font-family: Helvetica, Monaco;
+      text-align: justify;
+      text-indent: 100px;
+      text-transform: lowercase;
+      position: absolute;
+      top: 80px;
+
+    }
+
+    .active {
+      background-color: grey;
+    }
+
+    .topnav {
+      position: absolute;
+      overflow: vertical-align;
+      display: vertical-align;
+      top: 60px;
+      left: 500px;
+      padding: 10px 10px 10px 10px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .topnav a {
+      display: inline;
+      color: black;
+      border-style: solid, green;
+      background-color: white;
+      text-align: center;
+      text-decoration: none;
+      text-align: center;
+      font-family: Helvetica, Monaco;
+      font-size: 20px;
+      padding: 15px 25px;
+
+    }
+
+  </style>
+
+
+  <div class="div1">
+ 
+    <h1 class="solfatitle">solfapay</h1>
+    <h2 class="solfatag">
+      Simple Smart Secure
+    </h2>
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#Product">Product</a>
+      <a href="#company">Company</a>
+      <a href="#about">About</a>
+    </div>
+
+  </div>
+
+</header>
+
+<body>
+  <style>
+    .div2 {
+      height: 350px;
+      width: 100%;
+      position: relative;
+      background-color: purple;
+      position: absolute;
+      top: 130px;
+      background-image:url("");
+
+    }
+
+
+    .hed2 {
+      color: white;
+      font-size: 25px;
+      font-weight: 800;
+      font-family: Helvetica, Monaco;
+      position: relative;
+      text-align: left;
+      text-transform: uppercase;
+      line-height: 2.5;
+      padding: 30px 0px 0px 100px;
+
+    }
+
+    .par2 {
+      color: black;
+      font-size: 15px;
+      font-weight: 800px;
+      font-family: Helvetica, Monaco;
+      position: relative;
+      text-transform: lowercase;
+      padding: 10px 0px 0px 130px;
+      display: block;
+
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    /* The element to apply the animation to */
+    .divkey {
+      animation-name: example;
+      animation-duration: 10s;
+    }
+
+    a:hover {
+      background-color: purple;
+
+    }
+
+    /* The animation code */
+    @keyframes example {
+      0% {
+        background-color: purple;
+      }
+
+      25% {
+        background-color: yellow;
+      }
+
+      50% {
+        background-color: blue;
+      }
+
+      75% {
+        background-image: url("ibb.co/gVbZsN5");
+         background-color: pink;
+      }
+
+      100% {
+        background-color: red;
+      }
+    }
+
+  </style>
+
+  <div class="div2 divkey">
+   <img src="https://i.ibb.co/dgs4nFd/istockphoto-1342152077-612x612.jpg" class="div2">
+  
+
+    <h2 class="hed2">
+      Solfapay, Accept payment on the Go.
+    </h2>
+    <p class="par2">
+      Our solutions help your business thrive. Smart e-commerce, rapid digital transformation, and powerful data-driven marketing capabilities enable you to grow your business like never before.
+    </p>
+
+    <!-- 
+    <h2 class="hed2">
+      smart
+    </h2>
+    <p class="par2">
+      We break down barriers between different aspects of life so you can enjoy a more streamlined, technology-enabled way of life.
+    </p>
+    <h2 class="hed2">
+      secure
+    </h2>
+    <p class="par2">
+      Every transaction is secured by trusted technology. Contact-free payment options (e.g. QR code scanning) also eliminate the chance of virus transmission, protecting the health and safety of your customers.
+    </p>
+    -->
+  </div>
+  <style>
+    .div4 {
+      position: absolute;
+      background-color: white;
+      width: 100%;
+      height: 100px;
+      top: 481px;
+      float: center;
+    }
+
+    .soltitle {
+      color: black;
+      font-size: 30px;
+      font-weight: 800;
+      font-family: Helvetica, Monaco;
+      position: relative;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .div5 {
+      position: absolute;
+      background-color: white;
+      width: 100%;
+      height: 900px;
+      top: 581px;
+      float: center;
+    }
+
+    /* keep the boarders remove after adding images */
+    .box1 {
+      position: relative;
+      background-color: white;
+      height: 250px;
+      width: 45%;
+      border: 2px solid grey;
+      float: left;
+      top: 10px;
+      left: 15px;
+      margin: 5px;
+      border-radius: 10px;
+        background-image: url("ibb.co/gVbZsN5");
+
+    }
+
+    .box2 {
+      position: relative;
+      background-color: white;
+      height: 250px;
+      width: 45%;
+      border: 2px solid grey;
+      float: right;
+      top: 10px;
+      right: 15px;
+      margin: 5px;
+      border-radius: 10px;
+
+    }
+
+    .box3 {
+      position: relative;
+      background-color: white;
+      height: 250px;
+      width: 45%;
+      border: 2px solid grey;
+      float: left;
+      top: 10px;
+      left: 15px;
+      margin: 5px;
+      border-radius: 10px;
+
+    }
+
+    .box4 {
+      position: relative;
+      background-color: white;
+      height: 250px;
+      width: 45%;
+      border: 2px solid grey;
+      float: right;
+      top: 10px;
+      right: 15px;
+      margin: 5px;
+      border-radius: 10px;
+
+    }
+
+    .box5 {
+      position: relative;
+      background-color: white;
+      height: 250px;
+      width: 45%;
+      border: 2px solid grey;
+      float: left;
+      top: 10px;
+      left: 15px;
+      margin: 5px;
+      border-radius: 10px;
+
+    }
+
+    .box6 {
+      position: relative;
+      background-color: white;
+      height: 250px;
+      width: 45%;
+      border: 2px solid grey;
+      float: right;
+      top: 10px;
+      right: 15px;
+      margin: 5px;
+      border-radius: 10px;
+
+    }
+
+  </style>
+
+  <div class="div4">
+    <h2 class="soltitle">
+      our payment solutions
+    </h2>
+  </div>
+
+  <div class="div5">
+    <div class="box1">
+      <h2>
+        QR code payment
+      </h2>
+      <p>
+        user scan the merchants QR code to make payment.
+      </p>
+
+    </div>
+
+    <div class="box2">
+      <h2>
+        fast pay
+      </h2>
+      <p>
+        merchant scan the users QR code to make payment
+      </p>
+
+    </div>
+
+    <div class="box3">
+      <h2>
+        send and request money with user tags
+      </h2>
+      <p>
+        user send money to friends and family using @usertags
+      </p>
+
+    </div>
+
+    <div class="box4">
+      <h2>
+        web payment
+      </h2>
+      <p>
+        user scan the merchants QR code in web to make payment
+      </p>
+
+    </div>
+    <div class="box5">
+      <h2>
+        offline payment
+      </h2>
+      <p>
+        user SSD code in to make transactions
+      </p>
+
+    </div>
+    <div class="box6">
+      <h2>
+        offline payment
+      </h2>
+      <p>
+        user SSD code in to make transactions
+      </p>
+
+    </div>
+  </div>
+  <style>
+    .div6 {
+      position: absolute;
+      background-color: purple;
+      width: 100%;
+      height: 400px;
+      top: 1482px;
+      float: center;
+    }
+
+    .industry {
+      color: white;
+      font-size: 30px;
+      font-weight: 800;
+      font-family: Helvetica, Monaco;
+      position: relative;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .patnav {
+      position: relative;
+      top: 10px;
+      left: px;
+
+    }
+
+    .patnav a {
+      display: block;
+      color: black;
+      border-style: solid, green;
+      background-color: white;
+      text-align: center;
+      text-decoration: none;
+      text-align: center;
+      font-family: Helvetica, Monaco;
+      font-size: 20px;
+      padding: 15px 25px;
+      margin: 20px;
+
+    }
+
+  </style>
+  <div class="div6">
+    <h2 class="industry">
+      our partners
+    </h2>
+    <nav class="patnav">
+
+      <a href="#">transport</a>
+      <a href="#">restaurants</a>
+      <a href="#">restaurants</a>
+      <a href="#">shopping</a>
+
+    </nav>
+  </div>
+</body>
+<footer>
+  <style>
+    .div7 {
+      position: absolute;
+      background-color: black;
+      width: 100%;
+      height: 400px;
+      top: 1882px;
+      float: center;
+    }
+    
+    .fothed {
+      color: white;
+      font-size: 25px;
+      font-weight: 800;
+      font-family: Helvetica, Monaco;
+      position: relative;
+      text-align: left;
+      text-transform: uppercase;
+      line-height: 2.5;
+      padding: 30px 0px 0px 100px;
+
+    }
+
+    .fotpar {
+      color: white;
+      font-size: 15px;
+      font-weight: 800px;
+      font-family: Helvetica, Monaco;
+      position: relative;
+      text-transform: lowercase;
+      padding: 10px 0px 0px 130px;
+      display: block;
+
+    }
+
+  </style>
+  <div class="div7">
+    <h2 class="fothed">
+      contact us
+    </h2>
+    <p class="fotpar">
+      Email: info@solfapay.com
+      <br>
+      Tell: +254705641405
+    </p>
+  </div>
+</footer>

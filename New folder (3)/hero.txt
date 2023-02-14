@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<style>
+#slideshow { 
+  margin: 50px auto; 
+  position: relative; 
+  height:400px;
+width:100%;
+  padding: 10px; 
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+#slideshow > div { 
+  position: absolute; 
+  top: 10px; 
+  left: 10px; 
+  right: 10px; 
+  bottom: 10px; 
+}
+
+.hero1{
+background-image: url("https://i.ibb.co/SmXhTBG/firsthero.png");
+background-repeat: no-repeat;  
+background-attachment: ; 
+background-position: center;
+background-size:cover ;
+filter: brightness(100%);
+filter: contrast(100%);
+height:400px;
+width:100%;
+}
+
+.hero2{
+display:none;
+background-image: url("https://i.ibb.co/ZMKPjLW/secondhero.png");
+background-repeat: no-repeat;  
+background-attachment: ; 
+background-position: center;
+background-size:cover ;
+filter: brightness(100%);
+filter: contrast(100%);
+height:400px;
+width:100%;
+}
+
+.hero3{
+background-image: url("https://i.ibb.co/RCY5Bm3/thirdhero.png");
+background-repeat: no-repeat;  
+background-attachment: ; 
+background-position: center;
+background-size:cover ;
+filter: brightness(100%);
+filter: contrast(100%);
+height:400px;
+width:100%;
+}
+
+.hero4{
+display:none;
+background-image: url("https://i.ibb.co/SX0Qb7K/fourthhero.png");
+background-repeat: no-repeat;  
+background-attachment: ; 
+background-position: center;
+background-size:cover ;
+filter: brightness(100%);
+filter: contrast(100%);
+height:400px;
+width:100%;
+}
+h1 {
+  color: black;
+      font-size: 25px;
+      font-weight: 800;
+      font-family: Helvetica, Monaco;
+      position: relative;
+      text-align: left;
+      text-transform: uppercase;
+      padding: 80px 0px 0px 70px;
+        
+}
+p{
+  color: black;
+      font-size: 15px;
+      font-weight: 800px;
+      font-family: Helvetica, Monaco;
+      position: relative;
+      text-transform: lowercase;
+      padding: 20px 0px 0px 70px;
+      display: block;
+       line-height: 1.5;
+  
+}
+
+</style>
+
+
+<script>
+$(document).ready(function(){
+
+ $("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+  .fadeOut(1000)
+  .next()
+  .fadeIn(1000)
+  .end()
+  .appendTo('#slideshow');
+}, 3000);
+
+});
+</script>
+<div id= "slideshow">
+<div class="hero1" >
+<h1>
+SOLFAPAY, Beyond Payment
+</h1>
+<p>
+SolfaPay offers comprehensive support to help merchants grow their business<br> improving customer experiences, utilizing marketing resources, and driving<br> traffic to stores.
+</p>
+</div>
+
+
+<div class="hero2" >
+<h1>
+SOLFAPAY, Beyond Payment
+</h1>
+<p>
+SolfaPay offers comprehensive support to help merchants grow their business<br> improving customer experiences, utilizing marketing resources, and driving<br> traffic to stores.
+</p>
+</div>
+
+<div class="hero3" >
+<h1>
+SOLFAPAY, Beyond Payment
+</h1>
+<p>
+SolfaPay offers comprehensive support to help merchants grow their business<br> improving customer experiences, utilizing marketing resources, and driving<br> traffic to stores.
+</p>
+</div>
+
+<div class="hero4" >
+<h1>
+SOLFAPAY, Beyond Payment
+</h1>
+<p>
+SolfaPay offers comprehensive support to help merchants grow their business<br> improving customer experiences, utilizing marketing resources, and driving<br> traffic to stores.
+</p>
+</div>
+
+
+
+<html>

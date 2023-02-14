@@ -1,0 +1,401 @@
+body, html{
+    background-color: rgb(226, 43, 171);
+    font-family: 'Playfair Display', serif;
+    overflow-x: hidden !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+*{
+    text-decoration: none !important;
+}
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: rgb(226, 43, 171);
+    box-shadow: 0 19px 38px rgba(0,0,10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav .links a{
+    color: blue;
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.nav .links .mainLink{
+    color: black;
+}
+.nav .links a:hover{
+    color: green;
+}
+
+.nav .links .button{
+    padding: 8.5px 34px;
+    margin-left: 65px;
+    display: inline-block;
+    padding: 10.5px 36px;
+    font-size: 14px;
+    color: blue;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    text-transform: uppercase;
+    border: 1px solid white;
+    font-family: 'Playfair Display', serif;
+}
+
+.nav .links .button:hover{
+    color: blue;
+}
+
+/*landing CSS
+this is how we comment in css.*/
+.landing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw 0 10vw;
+    height: 100vh;
+}
+.landingText h1{
+    font-size: 6vw;
+    margin: 0 !important;
+}
+.landingText h3{
+    color: black;
+    margin: 6px !important;
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: 'Playfair Display', serif;
+    padding-right: 20px;
+}
+.landingText .btn{
+    width: 120px;
+    margin-top: 30px;
+    padding: 14px 20px 14px 20px;
+    background-color: black;
+    border-radius: 45px;
+    text-align: center;
+}
+.landing .btn a{
+    color: blue;
+    font-size: 1.2vw;
+}
+.landingImage img{
+    width: auto;
+}
+
+/*service CSS*/
+.about{
+    height: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutText{
+    padding: 0 50px;
+    position: relative;
+    height: inherit;
+}
+.aboutText h1{
+    position: relative;
+    left: 120px;
+}
+.aboutText img{
+    width: 100%;
+}
+.aboutlist{
+    width: 50%;
+}
+ol{
+    list-style: none;
+    color: blue;
+}
+ol li{
+    font-size: 34px;
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 1px solid whitesmoke;
+}
+li p{
+    font-size: 16px;
+    color: black;
+    padding-left: 60px;
+    line-height: 30px;
+    opacity: 0.6;
+}
+li span{
+    position: absolute;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+/*info section*/
+
+.infoSection{
+    height: 600px;
+}
+.infoHeader{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.infoCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+.infoCards .card{
+    position: relative;
+    height: 360px;
+    width: 360px;
+    background: whitesmoke;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.9), 0 10px 10px rgba(0,0,0,0.09);
+}
+.infoCards .one .cardoneImg{
+    width: 150px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+.infoCards .two .cardtwoImg{
+    width: 150px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+.infoCards .three .cardthreeImg{
+    width: 150px;
+    position: absolute;
+    top: -50px;
+    right: -30px;
+}
+.cardbgone{
+    height: 150px;
+    background-color: aqua;
+}
+.cardbgtwo{
+    height: 150px;
+    background-color: aqua;
+}
+.cardbgthree{
+    height: 150px;
+    background-color: aqua;
+}
+.cardContent{
+    padding: 0 20px;
+}
+.cardContent p{
+    line-height: 30px;
+    opacity: 0.6;
+}
+.cardContent .cardBtn{
+    position: absolute;
+    right: 20px;
+    padding: 10px;
+    background-color: red;
+    width: 25px;
+    height: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out .2s;
+}
+.cardContent .cardBtn:hover{
+    background-color: blue;
+}
+.cardContent .cardBtn .cardIcon{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 16px;
+}
+
+/*Banner CSS*/
+
+.banner{
+    height: 400px;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bannerText h1{
+    font-size: 3vw;
+    color: black;
+    font-weight: 600;
+}
+.aboutText img{
+    width: 10vw;
+    margin: 20px;
+}
+.bannerImg img{
+    width: 20vw;
+}
+.bannerImg img{
+    width: 20vw;
+}
+
+/*Footer css*/
+
+.footer{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.footerlinks a{
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: chocolate;
+}
+.footerlinks .mainLink{
+    color: firebrick;
+}
+.footer a:hover{
+    color: blue;
+}
+
+/*Making the Website Responsive.*/
+
+@media only screen and (max-width: 600px) {
+    .nav{
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        height: auto;
+        overflow-y: hidden;
+    }
+    .nav h4{
+        font-size: 6vw;
+        margin-bottom: 14px;
+        margin-top:10px ;
+    }
+    .nav .link a{
+        font-size: 12px;
+        margin-right: 25px;
+        font-weight: 600;
+    }
+    /*Landing css*/
+
+    .landing{
+        flex-direction: column-reverse;
+        height: 750px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .landingText h1{
+        font-size: 6vw;
+        margin: 0px !important;
+    }
+    .landingText h3{
+        font-size: 16px;
+    }
+    .landingText .btn{
+        font-size: 3vw;
+    }
+    .landingImage img{
+        width: 52vw;
+        margin-bottom: 20px;
+    }
+    /*services*/
+    .about{
+        height: auto;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutText{
+        padding: 0 50px;
+        height: 100px;
+    }
+    .aboutText h1{
+        left: 40px;
+        font-size: 5vw;
+    }
+    .aboutText img{
+        
+    }
+    .aboutlist{
+        width: 70%;
+    }
+    ol l1{
+        font-size: 26px;
+    }
+    li p{
+        font-size: 14px;
+    }
+    .infoSection{
+        height: auto; 
+    }
+    .infoCards{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .infoHeader{
+        margin: 40px 0;
+        text-align: center;
+    }
+    .infoCards .card{
+        margin-bottom: 60px;
+    }
+
+    /*banner*/
+    .banner{
+        height: auto;
+        padding: 50px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .banner h1{
+        font-size: 6vw;
+    }
+    .bannerInnerText{
+        font-size: 3vw !important;
+    }
+    .bannerTextwid{
+        width: 20vw;
+    }
+    .bannerImg img{
+        width: 26vw;       
+    }
+
+    /*foooter*/
+
+    .footer{
+        padding-bottom: 40px;
+
+    }
+
+
+}
